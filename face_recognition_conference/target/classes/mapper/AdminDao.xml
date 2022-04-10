@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hnrjzyjs.dao.AdminDao">
+    <select id="selectAdmin" resultType="com.hnrjzyjs.entity.Admin">
+        select adminname,password,phone_number from admin;
+    </select>
+
+    <insert id="insertAdmin" parameterType="com.hnrjzyjs.entity.Admin">
+        insert into admin(adminname,password,phone_number) values (#{adminname},#{password},#{phone_number})
+    </insert>
+
+    <update id="updateAdminByphone_number" parameterType="com.hnrjzyjs.entity.Admin">
+        update admin set password = #{password} where adminname = #{adminname}
+    </update>
+</mapper>

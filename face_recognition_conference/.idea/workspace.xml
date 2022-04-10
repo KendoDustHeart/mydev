@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c826164-c40a-4d1a-889c-cfc827403af4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-mapper" />
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/hnrjzyjs/face/FaceOpenCV_one.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/hnrjzyjs/face/FaceVideo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/hnrjzyjs/face/OpenCVController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="26GllBqIsquCSS36nvK4bREL0cB" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.18261719" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hnrjzyjs.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\resources" />
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\resources\images" />
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\webapp\img" />
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\webapp\js" />
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\resources\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\webapp" />
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\webapp\WEB-INF" />
+      <recent name="D:\基于深度学习的人脸识别会议系统\face_recognition_conference\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OpenCV">
+    <configuration name="FaceOpenCV_one" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hnrjzyjs.face.FaceOpenCV_one" />
+      <module name="face_recognition_conference" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=D:\\Sofeware\\opencv\\build\\java\\x64;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hnrjzyjs.face.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaceVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hnrjzyjs.face.FaceVideo" />
+      <module name="face_recognition_conference" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=D:\\Sofeware\\opencv\\build\\java\\x64;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hnrjzyjs.face.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hnrjzyjs.face.OpenCV" />
+      <module name="face_recognition_conference" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=D:\\Sofeware\\opencv\\build\\java\\x64;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hnrjzyjs.face.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaceRecognitionConferenceApplicationTests.testThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="face_recognition_conference" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hnrjzyjs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hnrjzyjs" />
+      <option name="MAIN_CLASS_NAME" value="com.hnrjzyjs.FaceRecognitionConferenceApplicationTests" />
+      <option name="METHOD_NAME" value="testThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaceRecognitionConferenceApplicationTests.testTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="face_recognition_conference" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hnrjzyjs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hnrjzyjs" />
+      <option name="MAIN_CLASS_NAME" value="com.hnrjzyjs.FaceRecognitionConferenceApplicationTests" />
+      <option name="METHOD_NAME" value="testTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaceRecognitionConferenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="face_recognition_conference" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hnrjzyjs.FaceRecognitionConferenceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FaceVideo" />
+      <item itemvalue="Application.FaceOpenCV_one" />
+      <item itemvalue="Application.OpenCV" />
+      <item itemvalue="JUnit.FaceRecognitionConferenceApplicationTests.testTwo" />
+      <item itemvalue="JUnit.FaceRecognitionConferenceApplicationTests.testThree" />
+      <item itemvalue="Spring Boot.FaceRecognitionConferenceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OpenCV" />
+        <item itemvalue="Application.FaceVideo" />
+        <item itemvalue="Application.FaceOpenCV_one" />
+        <item itemvalue="JUnit.FaceRecognitionConferenceApplicationTests.testThree" />
+        <item itemvalue="JUnit.FaceRecognitionConferenceApplicationTests.testTwo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c826164-c40a-4d1a-889c-cfc827403af4" name="Changes" comment="" />
+      <created>1647057956037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647057956037</updated>
+      <workItem from="1647057960210" duration="26005000" />
+      <workItem from="1647162321443" duration="38625000" />
+      <workItem from="1647302239640" duration="7229000" />
+      <workItem from="1648548642529" duration="3077000" />
+      <workItem from="1648559455067" duration="1214000" />
+      <workItem from="1648620028112" duration="16300000" />
+      <workItem from="1648696528398" duration="6000" />
+      <workItem from="1648733874329" duration="1729000" />
+      <workItem from="1648793018254" duration="16000" />
+      <workItem from="1649576265021" duration="198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

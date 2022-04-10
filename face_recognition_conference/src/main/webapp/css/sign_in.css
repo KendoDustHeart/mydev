@@ -1,0 +1,51 @@
+.sign_in {
+    width: 350px;
+    height: 500px;
+    position: absolute;/*绝对定位*/
+    border-radius: 5px;/*圆角边框*/
+    background: #ffffff;/*背景色为白色*/
+    box-shadow: 0px 0px 15px #f3bebe;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -175px;
+}
+.sign_in-center {
+    width: 100%;
+    box-sizing: border-box;/*两个并排的带边框的框*/
+    padding: 0 40px;
+    margin-bottom: 30px;
+}
+
+/*设置图片大小*/
+img{ vertical-align: top; max-width: 100%; }
+
+.center-img {
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.sign_in-top {
+    /*上面的登录*/
+    font-size: 24px;
+    margin-top: 100px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #333333;
+    margin-bottom: 50px;
+}
+.sign_in-button {
+    /*下面的登录*/
+    font-size:16px;
+    cursor: pointer;/*鼠标移过来变成小手*/
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    line-height: 40px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+}

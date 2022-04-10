@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.4</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.hnrjzyjs</groupId>
+    <artifactId>face_recognition_conference</artifactId>
+    <version>1.0.0</version>
+
+    <!--打包类型-->
+    <packaging>war</packaging>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+
+        <!--Thymeleaf起步依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <!--web起步依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!--mbatis起步依赖-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+
+        <!--mysql依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!--test依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- opencv + javacv + ffmpeg-->
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>4.1-1.4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv</artifactId>
+            <version>1.4.4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/ffmpeg-platform -->
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>ffmpeg-platform</artifactId>
+            <version>4.1-1.4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+
+
+        <!-- 视频摄像头 -->
+        <!-- https://mvnrepository.com/artifact/org.bytedeco/javacv-platform -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.4.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/opencv-platform -->
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>opencv-platform</artifactId>
+            <version>4.0.1-1.4.4</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+
+        <!--打包后的文件名称-->
+        <finalName>face_recognition_conference</finalName>
+
+        <!--resources插件，把jsp编译到指定的目录-->
+        <resources>
+            <resource>
+                <directory>src/main/webapp</directory>
+                <targetPath>META-INF/resources</targetPath>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+
+            <!--使用了mybatis，而且mapper文件放在src/main/java目录-->
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+
+            <!--把src/main/resources下面的所有文件，都包含到classes目录-->
+            <resource>
+                <directory>src/mian/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.4</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

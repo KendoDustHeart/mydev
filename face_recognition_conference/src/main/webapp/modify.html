@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找回密码页面</title>
+    <link rel="stylesheet" type="text/css" href="css/sign_in.css">
+    <script type="text/javascript" src="js/modify.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+</head>
+<body onload="this" background="img/login.jpg">
+<div class="sign_in">
+    <form align="center" style="font-size:30px">
+        <div class="sign_in-top">找回密码</div>
+
+        <div class="sign_in-center">
+            <div class="center-img"><img src="img/name.jpg"></div>
+            <div class="input">
+                <input type="text" id="name" name="name" placeholder="请输入您注册时用的用户名"  autofocus>
+            </div>
+        </div>
+
+        <div class="sign_in-center">
+            <div class="center-img"><img src="img/password.jpg"></div>
+            <input type="password" id="password" name="password" placeholder="请输入您的新密码">
+        </div>
+
+        <div class="sign_in-center">
+            <div class="center-img"><img src="img/phone_number.jpg"></div>
+            <input type="text" id="phone_number" name="phone_number" placeholder="请输入您注册时用的手机号">
+        </div>
+
+        <div class="sign_in-center">
+            <font style="color: darkgrey;font-size: 12px">登录身份</font>
+            <form>
+                <select name="login_identity" id="login_identity">
+                    <option value="user" selected>用户</option>
+                    <option value="admin">管理员</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="sign_in-button">
+            <div id="bt" onclick="modify()">确认</div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
